@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            margin: 0;
+            background: gray;
+        }
+        nav{
+            background:#594848 ;
+            width: 100%;
+            overflow: auto;
+        }
+        ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        li{
+            float: left;
+        }
+        nav a{
+            width: 120px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background: #594848;
+            font-size: 17px;
+            color: white;
+            padding: 20px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav a:hover{
+            background: skyblue;
+            color: black;
+        }
+        .container{
+            max-width: 1200px;
+            margin:auto;
+            background-color: rgb(245, 249, 249);
+            overflow: auto;
+        }
+        .gallery{
+            margin: 5px;
+            border: 11px solid #ccc;
+            float: left;
+            width: 390px;
+        }
+        .gallery img{
+            width: 369px;
+            height: 248px;
+        }
+        .desc{
+            padding: 15px;
+            text-align: center;
+        }
+
+        .action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 3px 79px;
+  padding: 17px;
+
+}
+
+.portfolio {
+  color: var(--primary-color);
+}
+
+.portfolio:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+    </style>
+</head>
+<body>
+   <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Downlode</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+   </nav> 
+  <div class="container">
+    <div class="gallery">
+        <a href="https://simple.wikipedia.org/wiki/Sunflower#:~:text=To%20grow%20well%2C%20sunflowers%20need,cm%20(1%20in)%20deep">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\download (4).jpg"></a>
+        <div class="desc">
+            FIRST IMAGE
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <a href="https://www.nationalgeographic.com/travel/article/beautiful-flower-destinations-around-the-world">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\images (1).jpg"></a>
+        <div class="desc">
+            SECOND IMAGE
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <a href="https://simple.wikipedia.org/wiki/Rose">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\images (2).jpg"></a>
+        <div class="desc">
+            THIRD IMAGE
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <a href="https://simple.wikipedia.org/wiki/Dahlia">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\images (3).jpg"></a>
+        <div class="desc">
+            FOURTH IMAGE
+        </div>
+    </div>
+
+
+    <div class="gallery">
+        <a href="https://www.britannica.com/plant/sunflower-plant">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\images (4).jpg"></a>
+        <div class="desc">
+            FIFTH IMAGE
+            <div class="action__btns">
+
+                <a href="post.html"><button class="portfolio">Read More</button></a>
+              </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <a href="https://www.bhg.com/gardening/flowers/roses/rose-facts/">
+        <img src="C:\Users\lovel\OneDrive\Desktop\flowers\images (5).jpg"></a>
+        <div class="desc">
+                SIXTH IMAGE
+        </div>
+    </div>
+
+  </div>
+
+ <div class="action__btns">
+    <a href="post.html"><button class="portfolio">More INFO ABOUT THE IMG</button></a>
+ </div>
+</body>
+</html>
